@@ -144,6 +144,7 @@
             this.addTeamButton.TabIndex = 16;
             this.addTeamButton.Text = "Add Team";
             this.addTeamButton.UseVisualStyleBackColor = true;
+            this.addTeamButton.Click += new System.EventHandler(this.addTeamButton_Click);
             // 
             // createPrizeButton
             // 
@@ -278,6 +279,7 @@
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "CreateTournamnetForm";
             this.Text = "Create Tournament";
+            this.Load += new System.EventHandler(this.CreateTournamnetForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

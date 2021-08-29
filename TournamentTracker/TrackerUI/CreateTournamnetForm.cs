@@ -56,5 +56,15 @@ namespace TrackerUI
         {
 
         }
+
+        private void CreateTournamnetForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void addTeamButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
