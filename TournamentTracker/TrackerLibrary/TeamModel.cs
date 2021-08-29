@@ -10,6 +10,6 @@ namespace TrackerLibrary
     {
         //props
         public List<PersonModel> TeamMembers { get; set; } = new List<PersonModel>(); //Initialize the List of Person (versus making a ctor)
-        public string TeamName { get; set; }
+        public string TeamName { get; set; } 
     }
 }
